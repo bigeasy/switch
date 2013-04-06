@@ -1,0 +1,20 @@
+{ "name": "switch"
+, "description": "A read/write lock for concurrent programming in JavaScript."
+, "author": "Alan Gutierrez"
+, "version": "0.0.2"
+, "keywords": [ "concurrency", "lock", "read", "write" ]
+, "licenses": [
+  { "type": "MIT"
+  , "url": "http://github.com/bigeasy/switch/raw/master/LICENSE"
+  }]
+, "repository":
+  { "type": "git"
+  , "url": "http://github.com/bigeasy/switch.git"
+  }
+, "scripts" : { "test": "proof platform win32 && proof test t/*/*.t.js || t/test" }
+, "devDependencies":
+  { "proof": "0.0.27"
+  , "uglify-js": "~1.3"
+  }
+, "dependencies": {}
+}
